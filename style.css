@@ -43,12 +43,13 @@
     letter-spacing: 0.1rem;
     margin-bottom: 0.5rem;
 }
-.social-icons li a i{
+.social-icons li a svg{
     padding: 10px;
     font-size: 1rem;
     border-radius: 50%;
+    color: #fff;
 }
-.social-icons li a i:hover {
+.social-icons li a svg:hover {
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 section{
@@ -226,7 +227,7 @@ section:nth-child(2n+1){
 }
 #my-detail-container p{
     color: #d9dcdd;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .my-details-info-container{
     font-size: 1rem;
@@ -277,7 +278,7 @@ textarea {
 
 #form-container button:hover {
     background: white;
-    color: #13386fe0;
+    color: black;
 }
 
 #contact .social-icons li a i {
@@ -423,4 +424,7 @@ button:focus {
 .fifty-percent {
     height: inherit;
     width: 50%;
+}
+.text-decoration{
+    text-decoration: none;
 }
